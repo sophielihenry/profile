@@ -1,0 +1,107 @@
+body {
+color: rgb(50, 50, 50);
+background: rgb(230, 230, 230);
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #8E3B46;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.section-white {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-mauve {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #8E3B46;
+  color: white;
+  padding: 15px 20px;
+  opacity: 0.7;
+}
+
+.btn-mauve:hover {
+  background-color: #8E3B46;
+  opacity: 1;
+}
+
+
+a {
+  text-decoration: none;
+  color: #8E3B46;
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
