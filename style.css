@@ -27,7 +27,6 @@ ul {
   padding-left: 0px;
 }
 
-
 h1 {
   font-size: 22px;
 }
@@ -44,7 +43,7 @@ h3 {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
-  width: 600px;
+  width: 800px;
   margin: 20px auto;
   text-align: center;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -85,6 +84,26 @@ a {
 
 a:hover {
   opacity: 1;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #383F51;
+}
+
+.sidebar-info {
+  color: white;
+  text-align: center;
+  margin: 14px;
+}
+
+/* putting width means the white sections now take up 80% and have space around*/
+#page-content {
+  width: 80%;
 }
 
 @media (max-width: 960px) {
